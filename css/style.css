@@ -1,0 +1,282 @@
+body{
+	background-color:#4F5D75;
+	font-family: 'Ubuntu', sans-serif;
+
+	
+	
+
+}
+
+h1{
+	color:white;
+}
+
+
+
+
+.searchbar{
+	background-color: rgba(229, 240, 255, 0.3);
+	border-radius: 10px;
+	position: relative;
+	width:63%;
+	left:35%;
+	bottom:60%;
+	height:10%;
+	text-align:center;
+	
+
+	
+}
+
+.searchbar input{
+	vertical-align: middle;
+	height:50%;
+	background-color:#ccc;
+	color:#000;
+	position:relative;
+	top:20%;
+	bottom:50%;
+	width:50%;
+	border-radius:8px;
+}
+
+.searchbox{
+	width:50%;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#fff;
+	height:20%;
+	padding-top:0;
+	padding-bottom:0;
+	vertical-align: middle;
+	position:relative;
+	top:50%;
+	border-radius:8px;
+}
+
+
+.button{
+	  border-radius:8px;
+  background-color: #FEC601;
+  padding: 1px 1px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 1px 1px;
+  cursor: pointer;
+}
+
+
+
+
+
+	
+
+
+
+
+.container{
+	width:100%;
+	height:100%;
+	position:absolute;
+	max-width: 100%
+}
+
+
+li{
+	border-bottom:2px solid rgba(255, 255, 255, 0.5);
+	height:5%;
+	text-align: center;
+	font-family: 'Ubuntu', sans-serif;
+		font-size:150%;
+		padding-top:3%;
+		padding-bottom:3%;
+		vertical-align: middle;
+		display:block;
+}
+
+
+
+a{
+	text-decoration: none;
+	color:black;
+}
+
+
+
+
+
+
+
+
+
+
+.news{
+	background-color: rgba(229, 240, 255, 0.3);
+	border-radius: 5px;
+	position: relative;
+	
+
+}
+
+.list-heading{
+
+	
+/*background: linear-gradient(36deg, rgba(6,0,106,1) 1%, rgba(9,9,121,1) 11%, rgba(0,212,255,1) 100%);*/
+background-color:#BFC0C0;
+padding-bottom: 4%;
+  border-bottom:none;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: :10px;
+  border-top-right-radius: 10px;
+  border-bottom:none;
+  font-style: bold;
+  vertical-align: middle;
+  
+}
+
+
+
+
+
+ul.sidebar{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 30%;
+ background-color: rgba(229, 240, 255, 0.3);
+   /* Full height */
+  position: relative; 
+  overflow: auto;
+  border-radius:10px;
+  display: block;
+  left:3%;
+  top:4%;
+ 
+ /* Enable scrolling if the sidenav has too much content */
+}
+
+
+
+li:hover{
+	background-color:rgba(94, 94, 94, 0.8);
+
+}
+
+
+
+ul.login{
+	 list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 30%;
+ background-color: rgba(229, 240, 255, 0.3);
+  /* Full height */
+  position: relative; /* Make it stick, even on scroll */
+
+  border-radius:10px;
+  display: block;
+  left:35%;
+  bottom:58%;
+
+
+}
+
+ul.news{
+	list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 30%;
+  background-color: rgba(229, 240, 255, 0.3);
+ 
+  position: relative;
+
+  border-radius:10px;
+left:68%;
+bottom:104%;
+
+}
+
+
+
+
+.footer{
+	position:relative;
+	top:-70%;
+	width:62%;
+	height:15%;
+	background-color: rgba(229, 240, 255, 0.3);
+	border-radius:8px;
+	left:3%;
+	font-size:150%;
+	
+}
+
+input{
+	border-radius:8px;
+	background-color:#ccc;
+	display:inline-block;
+}
+
+.media-buttons{
+	position:relative;
+	top:-88%;
+	left:68%;
+	background-color: rgba(229, 240, 255, 0.3);
+	border-radius:8px;
+	width:30%;
+	height:15%;
+	
+}
+
+.nav-icon{
+	width:10%;
+	height:10%;
+	left:10%;
+	position:relative;
+
+}
+
+.avatar-icon{
+	
+	margin-left:auto;
+	margin-right:auto;
+	width:20%;
+	height:20%;
+	position:relative;
+	vertical-align: middle;
+	top:20%;
+	bottom:20%;
+}
+
+
+
+.login-form{
+	margin: 0 auto;
+	position:relative;
+	
+	
+	top:10%;
+	left:34%;
+}
+
+
+.login-form input{
+	display:inline-block;
+	margin-right:auto;
+	margin-left:auto;
+	width:30%;
+
+	margin-bottom:2%;
+	
+}
+
+.login-form label{
+	display: inline-block;
+		text-align: right;
+		float: left;
+}
+
+
